@@ -10,10 +10,10 @@ const server = http.createServer((req, res) => {
     case "/":
       path += "index.html";
       break;
-    case "about":
+    case "/about":
       path += "about.html";
       break;
-    case "contact-me":
+    case "/contact-me":
       path += "contact-me.html";
       break;
     default:
